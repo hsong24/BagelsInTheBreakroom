@@ -10,6 +10,7 @@ public class AIChair : MonoBehaviour
     public int currWaypoint;
 
     // Start is called before the first frame update
+    //I added this comment in AIChair - Jordan
     void Start()
     {
         currWaypoint = 0;
