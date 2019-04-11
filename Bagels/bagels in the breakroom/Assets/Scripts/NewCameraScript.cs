@@ -14,7 +14,7 @@ public class NewCameraScript : MonoBehaviour
 
     void Start()
     {
-        offset = new Vector3(target.position.x, target.position.y + height, target.position.z + distance);
+        offset = new Vector3(transform.position.x - target.position.x , transform.position.y - target.position.y + height , transform.position.z - target.position.z + distance );
     }
 
     void LateUpdate()
