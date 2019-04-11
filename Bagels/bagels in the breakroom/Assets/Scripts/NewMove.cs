@@ -13,6 +13,7 @@ public class NewMove : MonoBehaviour
     private float currentTime = 0;
 	public bool isFirstPlace = false;
     public Text playerPlacement;
+	public float rotato = 1.18f;
     // Start is called before the first frame update
     void Start()
     {
@@ -23,7 +24,7 @@ public class NewMove : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        transform.Rotate(0, Input.GetAxis("Horizontal") * 1.18f, 0);
+        transform.Rotate(0, Input.GetAxis("Horizontal") * rotato, 0);
         Vector3 moveDir = new Vector3(Camera.main.transform.forward.x, 0, Camera.main.transform.forward.z);
         transform.position += moveDir * speed * Time.deltaTime * Input.GetAxis("Vertical");
 
