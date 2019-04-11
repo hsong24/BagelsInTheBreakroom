@@ -441,10 +441,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2275839550798901740}
     m_Modifications:
-    - target: {fileID: 192808, guid: e7a9a9223389ed54e84182a60e3aaa03, type: 3}
-      propertyPath: m_Name
-      value: filing-cabinet
-      objectReference: {fileID: 0}
     - target: {fileID: 431024, guid: e7a9a9223389ed54e84182a60e3aaa03, type: 3}
       propertyPath: m_LocalPosition.x
       value: -8.01
@@ -501,6 +497,10 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 90
       objectReference: {fileID: 0}
+    - target: {fileID: 192808, guid: e7a9a9223389ed54e84182a60e3aaa03, type: 3}
+      propertyPath: m_Name
+      value: filing-cabinet
+      objectReference: {fileID: 0}
     - target: {fileID: 439276, guid: e7a9a9223389ed54e84182a60e3aaa03, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.0021
@@ -532,10 +532,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2275839550798901740}
     m_Modifications:
-    - target: {fileID: 154562, guid: 4073f41b7d930f94d9470df64ec12b53, type: 3}
-      propertyPath: m_Name
-      value: Clock
-      objectReference: {fileID: 0}
     - target: {fileID: 456804, guid: 4073f41b7d930f94d9470df64ec12b53, type: 3}
       propertyPath: m_LocalPosition.x
       value: 9.63
@@ -592,6 +588,10 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 154562, guid: 4073f41b7d930f94d9470df64ec12b53, type: 3}
+      propertyPath: m_Name
+      value: Clock
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4073f41b7d930f94d9470df64ec12b53, type: 3}
 --- !u!4 &1740016660884111049 stripped
@@ -607,10 +607,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2275839550798901740}
     m_Modifications:
-    - target: {fileID: 100000, guid: 69698e2a0173c5d43bc2a3cedb91cbb5, type: 3}
-      propertyPath: m_Name
-      value: desk
-      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 69698e2a0173c5d43bc2a3cedb91cbb5, type: 3}
       propertyPath: m_LocalPosition.x
       value: 3
@@ -654,6 +650,10 @@ PrefabInstance:
     - target: {fileID: 400000, guid: 69698e2a0173c5d43bc2a3cedb91cbb5, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 69698e2a0173c5d43bc2a3cedb91cbb5, type: 3}
+      propertyPath: m_Name
+      value: desk
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 69698e2a0173c5d43bc2a3cedb91cbb5, type: 3}
@@ -730,7 +730,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5792048198071621189, guid: c74286fd27bb5984ea2d55da4c7b218e, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: c74286fd27bb5984ea2d55da4c7b218e, type: 3}
 --- !u!4 &5761253073344109549 stripped
 Transform:
@@ -745,11 +746,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2275839550798901740}
     m_Modifications:
-    - target: {fileID: 7815919382356692437, guid: ac45f7aa59529d4408e066a7d637934d,
-        type: 3}
-      propertyPath: m_Name
-      value: Computer
-      objectReference: {fileID: 0}
     - target: {fileID: 4061027180036703937, guid: ac45f7aa59529d4408e066a7d637934d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -804,6 +800,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7815919382356692437, guid: ac45f7aa59529d4408e066a7d637934d,
+        type: 3}
+      propertyPath: m_Name
+      value: Computer
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ac45f7aa59529d4408e066a7d637934d, type: 3}

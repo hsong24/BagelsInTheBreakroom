@@ -107,7 +107,6 @@ GameObject:
   m_Component:
   - component: {fileID: 664565012174103499}
   - component: {fileID: 664565012174103498}
-  - component: {fileID: 664565012174103497}
   - component: {fileID: 664565012174103496}
   - component: {fileID: 664565012174103495}
   - component: {fileID: 664565012174103494}
@@ -154,25 +153,6 @@ CharacterController:
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 0, z: 0.02}
---- !u!114 &664565012174103497
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 6095812975513827132, guid: 57b258b8c77ba3441b8f54e50ce47e61,
-    type: 3}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 664565012174103493}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 17eaf87079704e741b2903252436202a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Speed: 15
-  JumpHeight: 2
-  Gravity: -9.81
-  dashTime: 1
-  Drag: {x: 0, y: 0, z: 0}
-  hasBoost: 0
 --- !u!136 &664565012174103496
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -6716,7 +6696,6 @@ GameObject:
   m_Component:
   - component: {fileID: 664565012578305979}
   - component: {fileID: 664565012578305978}
-  - component: {fileID: 664565012578305977}
   - component: {fileID: 664565012578305976}
   - component: {fileID: 664565012578305975}
   - component: {fileID: 664565012578305974}
@@ -6763,25 +6742,6 @@ CharacterController:
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 0, z: 0.02}
---- !u!114 &664565012578305977
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 6095812974841140044, guid: 57b258b8c77ba3441b8f54e50ce47e61,
-    type: 3}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 664565012578305973}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 17eaf87079704e741b2903252436202a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Speed: 15
-  JumpHeight: 2
-  Gravity: -9.81
-  dashTime: 1
-  Drag: {x: 0, y: 0, z: 0}
-  hasBoost: 0
 --- !u!136 &664565012578305976
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -15991,7 +15951,6 @@ GameObject:
   m_Component:
   - component: {fileID: 664565012762171066}
   - component: {fileID: 664565012762171067}
-  - component: {fileID: 664565012762171064}
   - component: {fileID: 664565012762171065}
   - component: {fileID: 664565012762171062}
   - component: {fileID: 664565012762171063}
@@ -16038,25 +15997,6 @@ CharacterController:
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 0, z: 0.02}
---- !u!114 &664565012762171064
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 6095812974959264333, guid: 57b258b8c77ba3441b8f54e50ce47e61,
-    type: 3}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 664565012762171060}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 17eaf87079704e741b2903252436202a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Speed: 15
-  JumpHeight: 2
-  Gravity: -9.81
-  dashTime: 1
-  Drag: {x: 0, y: 0, z: 0}
-  hasBoost: 0
 --- !u!136 &664565012762171065
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -16457,7 +16397,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 664565012982817997}
-  - component: {fileID: 664565012982817996}
   - component: {fileID: 664565012982817999}
   - component: {fileID: 664565012982817998}
   - component: {fileID: 664565012982817985}
@@ -16486,25 +16425,6 @@ Transform:
   m_Father: {fileID: 6438035846113600363}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!143 &664565012982817996
-CharacterController:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 6095812975241982009, guid: 57b258b8c77ba3441b8f54e50ce47e61,
-    type: 3}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 664565012982817987}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Height: 0.03300904
-  m_Radius: 0.03018222
-  m_SlopeLimit: 45
-  m_StepOffset: 0
-  m_SkinWidth: 0.08
-  m_MinMoveDistance: 0.001
-  m_Center: {x: 0, y: 0, z: 0.02}
 --- !u!114 &664565012982817999
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19996,7 +19916,6 @@ GameObject:
   m_Component:
   - component: {fileID: 664565013383272573}
   - component: {fileID: 664565013383272572}
-  - component: {fileID: 664565013383272575}
   - component: {fileID: 664565013383272574}
   - component: {fileID: 664565013383272561}
   - component: {fileID: 664565013383272560}
@@ -20043,25 +19962,6 @@ CharacterController:
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 0, z: 0.02}
---- !u!114 &664565013383272575
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 6095812976720301194, guid: 57b258b8c77ba3441b8f54e50ce47e61,
-    type: 3}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 664565013383272563}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 17eaf87079704e741b2903252436202a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Speed: 15
-  JumpHeight: 2
-  Gravity: -9.81
-  dashTime: 1
-  Drag: {x: 0, y: 0, z: 0}
-  hasBoost: 0
 --- !u!136 &664565013383272574
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -20139,7 +20039,6 @@ GameObject:
   m_Component:
   - component: {fileID: 664565013406189957}
   - component: {fileID: 664565013406189956}
-  - component: {fileID: 664565013406189959}
   - component: {fileID: 664565013406189958}
   - component: {fileID: 664565013406189961}
   - component: {fileID: 664565013406189960}
@@ -20186,25 +20085,6 @@ CharacterController:
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 0, z: 0.02}
---- !u!114 &664565013406189959
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 6095812976680836466, guid: 57b258b8c77ba3441b8f54e50ce47e61,
-    type: 3}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 664565013406189963}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 17eaf87079704e741b2903252436202a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Speed: 15
-  JumpHeight: 2
-  Gravity: -9.81
-  dashTime: 1
-  Drag: {x: 0, y: 0, z: 0}
-  hasBoost: 0
 --- !u!136 &664565013406189958
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -23434,7 +23314,6 @@ GameObject:
   m_Component:
   - component: {fileID: 664565013489967761}
   - component: {fileID: 664565013489967760}
-  - component: {fileID: 664565013489967763}
   - component: {fileID: 664565013489967762}
   - component: {fileID: 664565013489967773}
   - component: {fileID: 664565013489967772}
@@ -23481,25 +23360,6 @@ CharacterController:
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 0, z: 0.02}
---- !u!114 &664565013489967763
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 6095812976630396518, guid: 57b258b8c77ba3441b8f54e50ce47e61,
-    type: 3}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 664565013489967775}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 17eaf87079704e741b2903252436202a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Speed: 15
-  JumpHeight: 2
-  Gravity: -9.81
-  dashTime: 1
-  Drag: {x: 0, y: 0, z: 0}
-  hasBoost: 0
 --- !u!136 &664565013489967762
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -26972,7 +26832,6 @@ GameObject:
   m_Component:
   - component: {fileID: 664565013743501145}
   - component: {fileID: 664565013743501144}
-  - component: {fileID: 664565013743501147}
   - component: {fileID: 664565013743501146}
   - component: {fileID: 664565013743501141}
   - component: {fileID: 664565013743501140}
@@ -27019,25 +26878,6 @@ CharacterController:
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 0, z: 0.02}
---- !u!114 &664565013743501147
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 6095812975806442414, guid: 57b258b8c77ba3441b8f54e50ce47e61,
-    type: 3}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 664565013743501143}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 17eaf87079704e741b2903252436202a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Speed: 15
-  JumpHeight: 2
-  Gravity: -9.81
-  dashTime: 1
-  Drag: {x: 0, y: 0, z: 0}
-  hasBoost: 0
 --- !u!136 &664565013743501146
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -27115,7 +26955,6 @@ GameObject:
   m_Component:
   - component: {fileID: 664565013858222407}
   - component: {fileID: 664565013858222406}
-  - component: {fileID: 664565013858222405}
   - component: {fileID: 664565013858222404}
   - component: {fileID: 664565013858222411}
   - component: {fileID: 664565013858222410}
@@ -27162,25 +27001,6 @@ CharacterController:
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 0, z: 0.02}
---- !u!114 &664565013858222405
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 6095812975993656752, guid: 57b258b8c77ba3441b8f54e50ce47e61,
-    type: 3}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 664565013858222409}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 17eaf87079704e741b2903252436202a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Speed: 15
-  JumpHeight: 2
-  Gravity: -9.81
-  dashTime: 1
-  Drag: {x: 0, y: 0, z: 0}
-  hasBoost: 0
 --- !u!136 &664565013858222404
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -33815,7 +33635,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1633797695181877324}
   - component: {fileID: 1633797695181877325}
-  - component: {fileID: 1633797695181877326}
   - component: {fileID: 1633797695181877327}
   - component: {fileID: 1633797695181877312}
   - component: {fileID: 1633797695181877313}
@@ -33862,25 +33681,6 @@ CharacterController:
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 0, z: 0.02}
---- !u!114 &1633797695181877326
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 5408195992192771259, guid: 57b258b8c77ba3441b8f54e50ce47e61,
-    type: 3}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1633797695181877314}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 17eaf87079704e741b2903252436202a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Speed: 15
-  JumpHeight: 2
-  Gravity: -9.81
-  dashTime: 1
-  Drag: {x: 0, y: 0, z: 0}
-  hasBoost: 0
 --- !u!136 &1633797695181877327
 CapsuleCollider:
   m_ObjectHideFlags: 0
