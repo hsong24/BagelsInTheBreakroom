@@ -4,15 +4,18 @@ using UnityEngine;
 
 public class KickTrigger : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+	public GameObject player;
+	NewMove newMove;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+	void Start() {
+		newMove = player.GetComponent<NewMove>();
+	}
+	void OnTriggerEnter(Collider col) {
+		if (col.tag != "Player") {
+			newMove.kicking = true;
+			newMove.hasBoost = true;
+			newMove.bump = true;
+			}
+		}
+
 }
