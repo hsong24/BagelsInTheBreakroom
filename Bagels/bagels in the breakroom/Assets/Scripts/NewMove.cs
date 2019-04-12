@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class NewMove : MonoBehaviour
 {
-    public float speed = 400f;
+    public float startSpeed = 400f;
     public float dashTime = .5f;
     public bool hasBoost; 
     float firstSpeed;
@@ -16,13 +16,13 @@ public class NewMove : MonoBehaviour
 	public bool kicking;
 	public Vector3 moveDir;
 	public bool bump = false;
-
+	public float speed;
 
     // Start is called before the first frame update
     void Start()
     {
         hasBoost = false; //
-        firstSpeed = speed; 
+		speed = startSpeed; 
 		moveDir = new Vector3(0,0,0);
 		kicking = false;
 		bump = false;
@@ -43,25 +43,23 @@ public class NewMove : MonoBehaviour
 			}
 			if (kicking == true) {
 				moveDir = new Vector3(moveDir.x, moveDir.y,-moveDir.z);
-
+				Debug.Log("change dir");
 			}
 
 			if (currentTime == 0f)
             {
                 Debug.Log("Dash");
                 gameObject.GetComponent<Animator>().SetBool("Boost", true);
-				speed = speed * 3;
+				speed = startSpeed * 3;
             }
-			Debug.Log("before");
-			Debug.Log(currentTime);
+
             currentTime += Time.deltaTime;
-			Debug.Log("after");
-			Debug.Log(currentTime);
+
             if (currentTime > dashTime)
             {
 				kicking = false;
 				Debug.Log("end boost");
-				speed = speed/3;
+				speed = startSpeed;
                 hasBoost = false;
 				currentTime = 0f;
 				gameObject.GetComponent<Animator>().SetBool("Boost", false);
