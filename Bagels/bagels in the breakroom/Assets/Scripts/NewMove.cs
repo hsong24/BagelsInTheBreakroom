@@ -61,7 +61,7 @@ public class NewMove : MonoBehaviour
     private void BoostAnimationEvent()
     {
         GameObject ethan = gameObject.transform.GetChild(0).gameObject.transform.GetChild(3).gameObject;
-        ethan.GetComponent<Animator>().SetBool("Boost", true);
+        ethan.GetComponent<Animator>().SetTrigger("Boost");
         gameObject.GetComponent<Animator>().SetBool("Boost", false);
 
     }
