@@ -57,6 +57,7 @@
      <Compile Include="Assets\CameraController.cs" />
      <Compile Include="Assets\Clock\Scripts\Clock.cs" />
      <Compile Include="Assets\EthanController.cs" />
+     <Compile Include="Assets\KickTrigger.cs" />
      <Compile Include="Assets\PauseToggle.cs" />
      <Compile Include="Assets\RestartGame.cs" />
      <Compile Include="Assets\SampleScenes\Menu\Scripts\MenuSceneLoader.cs" />
