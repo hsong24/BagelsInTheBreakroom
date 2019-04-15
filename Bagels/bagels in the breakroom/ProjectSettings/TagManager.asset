@@ -5,7 +5,6 @@ TagManager:
   serializedVersion: 2
   tags:
   - collectible
-  - BounceObject
   layers:
   - Default
   - TransparentFX
@@ -38,7 +37,7 @@ TagManager:
   - 
   - 
   - 
-  - Untouchable
+  - 
   m_SortingLayers:
   - name: Default
     uniqueID: 0
